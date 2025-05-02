@@ -1,0 +1,195 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #4CAF50; /* Verde suave Gresst */
+  --ifm-color-primary-dark: #43A047;
+  --ifm-color-primary-darker: #3D8B40;
+  --ifm-color-primary-darkest: #2E7D32;
+  --ifm-color-primary-light: #66BB6A;
+  --ifm-color-primary-lighter: #81C784;
+  --ifm-color-primary-lightest: #A5D6A7;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #66BB6A; /* Verde más claro para modo oscuro */
+  --ifm-color-primary-dark: #4CAF50;
+  --ifm-color-primary-darker: #43A047;
+  --ifm-color-primary-darkest: #3D8B40;
+  --ifm-color-primary-light: #81C784;
+  --ifm-color-primary-lighter: #A5D6A7;
+  --ifm-color-primary-lightest: #C8E6C9;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos personalizados */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.navbar__logo {
+  height: 2.5rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #81C784 0%, #4CAF50 100%);
+  color: white;
+  padding: 4rem 0;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  opacity: 0.95;
+  color: white;
+}
+
+/* Botones personalizados */
+.button {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+  transform: translateY(-1px);
+}
+
+/* Cards y contenedores */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* Tablas */
+table {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+th {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-weight: 500;
+}
+
+/* Sidebar */
+.menu__link {
+  border-radius: 6px;
+  margin: 2px 0;
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-dark);
+}
+
+.menu__link--active {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+/* Footer */
+.footer {
+  background-color: #2E7D32;
+  color: white;
+  padding: 3rem 0;
+}
+
+.footer__link-item {
+  color: rgba(255,255,255,0.8);
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Badges y etiquetas */
+.badge {
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-weight: 500;
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-top: 2rem;
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Enlaces */
+a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+}
+
+/* Código */
+code {
+  border-radius: 4px;
+  padding: 2px 4px;
+  background-color: rgba(0,0,0,0.05);
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Alertas y notas */
+.alert {
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-dark);
+}
+
+/* Responsive */
+@media (max-width: 996px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1.25rem;
+  }
+}
