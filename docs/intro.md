@@ -9,7 +9,6 @@ Bienvenido a la documentación oficial de GresstApp. Aquí encontrarás toda la 
 ## Secciones Principales
 
 - [Guía de Usuario](user-guide/intro.md) - Manual completo para usuarios finales
-- [Guía de Administrador](admin-guide/intro.md) - Guía para administradores del sistema
 - [Preguntas Frecuentes](faq.md) - Respuestas a preguntas comunes
 - [Soporte](support.md) - Información de contacto y recursos de ayuda
 

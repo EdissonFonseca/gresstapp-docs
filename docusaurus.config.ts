@@ -10,10 +10,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://gresst.github.io',
+  url: 'https://docs.gresst.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/gresstapp-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -38,7 +38,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: '/',
-          editUrl: 'https://github.com/gresst/gresstapp-docs/edit/main/',
+          editUrl: 'https://github.com/EdissonFonseca/gresstapp-docs/edit/main/',
         },
         blog: false,
         theme: {
