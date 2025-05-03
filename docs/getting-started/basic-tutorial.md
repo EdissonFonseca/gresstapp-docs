@@ -67,12 +67,12 @@ Este tutorial te guiará a través de las funciones básicas de GresstApp.
 
 Para aprovechar al máximo GresstApp:
 
-1. Explora la [Guía de Usuario completa](/user-guide/intro)
-2. Revisa las [funciones avanzadas](/user-guide/advanced)
-3. Configura tus [preferencias personales](/user-guide/preferences)
+1. Explora la [Guía de Usuario completa](../user-guide/intro)
+2. Revisa las [funciones avanzadas](../user-guide/advanced)
+3. Configura tus [preferencias personales](../user-guide/preferences)
 
 ## Ayuda Adicional
 
-- [Preguntas Frecuentes](/faq)
-- [Soporte Técnico](/support)
+- [Preguntas Frecuentes](../faq)
+- [Soporte Técnico](../support)
 - [Video Tutoriales](https://gresst.com/tutoriales) 

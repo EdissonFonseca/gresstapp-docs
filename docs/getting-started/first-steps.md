@@ -52,12 +52,12 @@ Puedes volver a ver el tutorial en cualquier momento desde el menú de ayuda.
 Una vez completada la configuración inicial, te recomendamos:
 
 1. Explorar el [Tutorial Básico](basic-tutorial) para familiarizarte con las funciones principales
-2. Revisar la [Guía de Usuario](/user-guide/intro) para información detallada
-3. Configurar tus [preferencias de sincronización](/user-guide/sync)
+2. Revisar la [Guía de Usuario](../user-guide/intro) para información detallada
+3. Configurar tus [preferencias de sincronización](../user-guide/sync)
 
 ## Soporte
 
 Si necesitas ayuda durante este proceso:
-- Consulta las [Preguntas Frecuentes](/faq)
-- Contacta a [Soporte Técnico](/support)
+- Consulta las [Preguntas Frecuentes](../faq)
+- Contacta a [Soporte Técnico](../support)
 - Visita el [Centro de Ayuda](https://gresst.com/ayuda) 

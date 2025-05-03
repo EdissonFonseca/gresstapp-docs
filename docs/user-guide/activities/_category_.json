@@ -1,0 +1,8 @@
+{
+  "label": "Actividades",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Gestión completa de actividades en GresstApp"
+  }
+} 
