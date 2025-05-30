@@ -17,6 +17,8 @@ Si ya tienes una cuenta:
 3. Ingresa tu correo y contraseña
 4. Toca "Entrar"
 
+<img src="/img/login.png" alt="Pantalla de inicio de sesión" width="600"/>
+
 ## Configuración del Perfil
 
 ### Información Personal
