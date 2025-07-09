@@ -60,8 +60,6 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'API',
           items: [
-            'tech-guide/api/authentication',
-            'tech-guide/api/endpoints',
             'tech-guide/api/sync-and-queues',
           ],
         },
@@ -69,17 +67,8 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Desarrollo',
           items: [
-            'tech-guide/development/setup',
-            'tech-guide/development/contributing',
-            'tech-guide/development/create-a-blog-post',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Administración',
-          items: [
-            'tech-guide/admin/configuration',
-            'tech-guide/admin/maintenance',
+            'tech-guide/development/manage-docs-versions',
+            'tech-guide/development/translate-your-site',
           ],
         },
       ],
